@@ -1,0 +1,44 @@
+@import url('https://fonts.googleapis.com/css2?family=Bitcount+Ink:wght@100..900&display=swap');
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    font-family: "Bitcount Ink", system-ui ;
+}
+
+body{
+    border: 2px solid red;
+    width: 100%;
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.contenedor{
+    border: 2px solid black; /* Me ayudara como guia para ubicar mi caja*/
+    width: 800px;
+    height: 500px;
+    display: flex;/* Les agrego movimiento a sus elementos*/
+}
+
+
+
+.contenedor-form{
+    border:2px solid green; /* les agrego un marco para guiarme */
+    width: 100%;
+}
+
+.contenedor-form form{ /* esta clase del css nos ayudara a poder manipular nuestros formularios*/
+    border: 2px solid red;
+    height: 100%;/*Les indicamos que ocupen el 100 de la altura*/
+    display: flex; /* Hacemos flexible al elemto */
+    flex-direction: column; /* Les indicamos que sus elementos ineternos estaran ubiocados en columnas*/
+    justify-content: center; /* Les indicamos a los elementos que estaran centrados */
+    align-items: center; /* De este modo le indicamos que estaran en el centro tanto verical como horizontal */
+}
+
+.contenedor-form h2{ /*Accedemos a los titlos de inicio y registro */
+    font-size: 30px;
+    margin-bottom: 30px;
+}
